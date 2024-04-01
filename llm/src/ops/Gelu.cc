@@ -1,5 +1,5 @@
 #include "ops/Gelu.h"
-
+#include <cmath>
 #include <cassert>
 
 static const float GELU_COEF_A    = 0.044715f;
